@@ -1,0 +1,40 @@
+/* Estilos para el contenedor de búsqueda */
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* Ocupa el 98% de la altura de la pantalla */
+    width: 97%;
+    left: 20px;
+    position: relative;
+  }
+  
+  /* Estilos para el campo de entrada de búsqueda */
+  .search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1; /* El campo de entrada ocupa todo el espacio disponible */
+  }
+  
+  /* Estilos para el botón de búsqueda */
+  .search-button {
+    background-color: #20b2aa;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 10px;
+    
+  }
+  
+  /* Estilos para el icono de lupa */
+  .search-icon {
+    width: 10px;
+    height: 10px;
+    
+  }
+  

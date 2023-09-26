@@ -1,0 +1,145 @@
+/* Estilos para el componente Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #033b66;
+    color: #fff;
+    padding: 0px;
+    position: relative;
+    font-size: 8px;
+    
+
+  }
+  
+  .footer-left {
+    display: flex;
+    align-items: center;
+    font-size: 8px;
+    ;
+  }
+  
+  .footer-logo {
+    width: 350px; /* Tamaño de la foto en el lado izquierdo */
+    margin-right: 20px;
+    position: relative;
+    left: -100px;
+   
+  }
+  
+  .social-icons {
+    display: flex; /* Usa flexbox para colocar los íconos uno al lado del otro */
+    align-items: center; /* Alinea verticalmente los íconos al centro */
+    position: relative;
+    top: 70px;
+    left: -270px;
+    color: #fff;
+    font-size: 30px;
+  }
+  
+  /* Estilo para los iconos de redes sociales */
+  .social-icons a {
+    text-decoration: none;
+    color: #fff; /* Color de los iconos */
+    margin-right: 15px; /* Separación entre los iconos */
+  }
+  
+  .social-icons a:last-child {
+    margin-right: 0; /* No aplicar margen al último icono */
+  }
+  
+  .footer-line {
+    width: 100%;
+    border: 0.5px solid #fff; /* Línea separadora */
+    margin: 10px 0;
+    position: relative;
+    top: 70px; /* Ajusta la posición vertical */
+  }
+  
+  /* Estilos para la sección de derechos de autor */
+  .copyright {
+    font-size: 14px;
+    position: absolute; /* Posición absoluta para ubicar por encima de la línea */
+    bottom: -20px; /* Ajusta la posición vertical por encima de la línea */
+    left: 0; /* Alinea a la izquierda */
+  }
+  
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+   
+  }
+  
+  .footer-buttons {
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+    top: 50px;
+    left: -90px;
+  }
+  
+  /* Estilos para el efecto hover */
+  .footer-buttons li:hover {
+    font-weight: normal; /* Quita la negrita al hacer hover */
+  }
+  
+  
+  .footer-buttons li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-buttons a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .contact-info {
+    text-align: right;
+    position: relative;
+    top: -85px; /* Ajusta la posición vertical para alinear con los botones */
+    left: 360px;
+    
+}
+  
+  
+  .contact-info p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  /* Estilos para hacer que el pie de página sea receptivo */
+  @media screen and (max-width: 890px) {
+    .footer-left {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .footer-logo {
+      margin: 0;
+      margin-bottom: 10px;
+      position: relative;
+    }
+  
+    .social-icons {
+      margin-bottom: 10px;
+    }
+  
+    .footer-line {
+      margin: 20px 0;
+    }
+  
+    .footer-right {
+      align-items: flex-start;
+    }
+  
+    .footer-buttons {
+      text-align: left;
+    }
+  
+    .contact-info {
+      text-align: left;
+    }
+  }

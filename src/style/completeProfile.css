@@ -1,0 +1,86 @@
+/* completeProfile.css */
+.user-profile {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .complete-profile-button {
+    background-color: #082f58;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left:300px;
+    top: -230px
+  }
+
+  
+  .profile-form-container {
+    display: none;
+    background-color: #083d7584;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: display 0.3s ease;
+   
+  }
+  
+  .profile-form-container.visible {
+    display: block;
+    position: relative;
+    top: -300px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+    
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+  }
+  
+  input[type="text"] {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #20b2aa;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .profile-details {
+    margin-top: 20px;
+    position: relative;
+    top: -180px;
+    width: 200px;
+  }
+  
+  .profile-details h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .profile-details-content {
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+  }
+ 
+  

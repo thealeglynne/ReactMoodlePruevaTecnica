@@ -1,0 +1,26 @@
+/* UserProfileDetails.css */
+
+/* Estilos para el contenedor de detalles de perfil */
+.profile-details {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  /* Estilos para el título de detalles de perfil */
+  .profile-details h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Estilos para los detalles del perfil */
+  .profile-details p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  

@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+body{
+    overflow-x: hidden;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.userContainer{
+  
+    width: 500px;
+    height: 400px;
+    position: relative;
+    left: 50%;
+   
 }
+.profileSection{
+    background-color: rgba(159, 163, 163, 0.489);
+    width: 25%;
+    height: 400px;
+    position: relative;
+    top: -360px;
+    left: 5%;
+}
+.profile-details{
+    position: relative;
+    left: 85px;
+    top: 30px;
+    
+}
+.imgProfile{
+    width: 250px;
+    position: relative;
+    top: -80px;
+    left: 5%;
+    display: flex;
+}
+@media (max-width: 918px) {
+    .imgProfile {
+      left: -30px; /* Mueve la imagen 40px hacia la izquierda */
+    }
+  }
+  @media (max-width: 890px) {
+  /* Estilos para el menú desplegable lateral */
+  .profileSection {
+    width: 0; /* Oculta la sección lateral */
+  }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .profile-details {
+    position: relative;
+    left: 0; /* Coloca el contenido a la izquierda */
+  }
+
+  /* Agrega un botón o enlace para mostrar el menú desplegable */
+  .menu-button {
+    display: block; /* Muestra el botón */
+  }
+  .profileSection, .imgProfile {
+    display: none;
+  }
+
+  /* Estilos para el menú desplegable lateral */
+  .profile-details {
+    position: relative;
+    left: 0; /* Coloca el contenido a la izquierda */
+  }
+
+  /* Agrega un botón o enlace para mostrar el menú desplegable */
+  .menu-button {
+    display: block; /* Muestra el botón */
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
